@@ -1,0 +1,46 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 600px;
+    margin: auto;
+}
+
+#clue-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+}
+
+#word-input {
+    text-align: center;
+}
+
+#score-display, #timer-display {
+    font-weight: bold;
+}
+
+#score-display {
+    color: #343a40;
+}
+
+#timer-display {
+    color: #d9534f;
+}
+
+/* Feedback */
+#feedback.correct {
+    color: #28a745;
+    font-weight: bold;
+}
+
+#feedback.wrong {
+    color: #dc3545;
+    font-weight: bold;
+}
